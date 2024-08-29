@@ -83,41 +83,7 @@ Este projeto implementa um módulo backend para automatizar o lançamento de inf
 - **Could Have**: Notificação de Erros, Correção de Erros.
 - **Won’t Have**: Funcionalidades avançadas de análise de Lançamentos.
 
-## 📊 Diagramas e Modelos
+## 📊 Modelos de Utilização
 
-  +----------------------+
-  |  Sistema de Lançamento|
-  |  Automático EFD      |
-  +----------------------+
-            |
-            |
-  +---------+---------+
-  |                   |
-+----+            +----+
-|Usuário|          |Sistema Externo|
-+----+            +----+
-  |                   |
-  |                   |
-  |                   |
-  |  +--------------+  |
-  |  | Coletar Dados|  |
-  |  +--------------+  |
-  |                   |
-  |                   |
-  |  +--------------+  |
-  |  | Processar    |  |
-  |  | Dados        |  |
-  |  +--------------+  |
-  |                   |
-  |                   |
-  |  +--------------+  |
-  |  | Gerar Arquivo|  |
-  |  +--------------+  |
-  |                   |
-  |                   |
-  |  +--------------+  |
-  |  | Enviar Arquivo| |
-  |  +--------------+  |
-  |                   |
-  +-------------------+
-
+  Sistema de Lançamento Automático EFD --> Usuário/Dados - Coleta de Dados --> Processamento ou Edição dos Lançamentos -->
+  Gerar Arquivo TXT --> Validação Arquivo --> Transmissão a Receita Federal ou Envio aos Advogados
